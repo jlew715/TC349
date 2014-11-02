@@ -1,0 +1,16 @@
+.headTitle {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 28pt;
+  padding-bottom: 1px;
+  color: #FFFFFF;
+  background-color: #000000;
+  @include opacity(0.5);
+}
+
+.headTitle p {
+  margin: 0; /*gets rid of those extra margins*/
+}
