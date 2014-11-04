@@ -7,7 +7,7 @@
 .cell{
   width: 25%; /*scale in both dimensions to maintain aspect ratio*/
   padding-bottom:25%;
-  background-size: contain;
+  @include background-size(contain);
   display: block;
   float:left;
 }
