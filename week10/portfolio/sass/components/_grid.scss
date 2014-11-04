@@ -1,0 +1,19 @@
+.grid {
+  width: 100%;
+  margin: 0;
+  background-color: #000000;
+}
+
+.cell{
+  width: 25%; /*scale in both dimensions to maintain aspect ratio*/
+  padding-bottom:25%;
+  background-size: contain;
+  display: block;
+  float:left;
+  @include transition-property(all);
+  @include transition-duration(1s);
+
+  &:hover{
+    
+  }
+}

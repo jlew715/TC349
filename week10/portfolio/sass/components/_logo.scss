@@ -1,0 +1,11 @@
+#logo {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  background-color: #C0C0C0;
+  @include border-radius(75px); /*if border-radius is half the w/h, you get a circle!*/
+  background-image: url('../img/jerold.JPG');
+  background-position: center;
+}
