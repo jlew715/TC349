@@ -10,10 +10,13 @@
   background-size: contain;
   display: block;
   float:left;
+  opacity: 0.3;
+  z-index: 60000;
+  position: relative;
   @include transition-property(all);
-  @include transition-duration(1s);
+  @include transition-duration(0.5s);
 
   &:hover{
-    
+    opacity: 1.0;
   }
 }
