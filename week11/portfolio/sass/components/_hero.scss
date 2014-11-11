@@ -1,0 +1,47 @@
+.hero {
+  width: 100%;
+  margin: 0;
+  background-color:#40637A;
+  overflow: auto;
+}
+
+.heroContent {
+  width: 500px; /*box for hero content*/
+  height: 400px;
+  padding-left: 10px;
+  @include center-block;
+  background-color: #000000;
+  opacity: 0.45;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.heroContent h1 {
+  margin:0;
+  font-size: 42px;
+  padding-top: 40px;
+}
+
+.heroContent ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.heroContent li {
+  padding: 5px;
+}
+
+.heroContent a:link {
+  color: #CCCCCC;
+}
+
+.heroContent a:visited {
+  color: #CCCCCC;
+}
+
+.heroContent a:hover {
+  color: #FFFFFF;
+}
