@@ -1,0 +1,25 @@
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@import 'compass';
+@import 'components/_normalize.scss';
+@import 'components/_header.scss';
+@import 'components/_logo.scss';
+@import 'components/_headtitle.scss';
+@import 'components/_grid.scss';
+@import 'components/_cellContents.scss';
+@import 'components/_hero.scss';
+@import 'components/_aboutUs.scss';
+@import 'components/_mobile.scss';
