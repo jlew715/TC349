@@ -530,3 +530,12 @@ table {
 body {
   background-color: #000;
 }
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../font/HelveticaNeue-Thin.otf);
+}
+
+html{
+  font-family: HelveticaNeue;
+}

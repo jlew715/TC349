@@ -1,11 +1,21 @@
-@media (max-width: 600px){
+@media (max-width: 1000px){
+  .topLine{
+    font-size:2em;
+    transition: font-size 0.3s;
+  }
+}
+@media (max-width: 800px){
   .grid li{
     width:50%;
+  }
+  .pageTitle{
+    width:100%;
   }
 }
 
 @media (max-width: 400px){
   .grid li {
     width: 100%;
+    transition: width 0.3s;
   }
 }
