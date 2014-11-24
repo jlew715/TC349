@@ -1,0 +1,40 @@
+.aboutUsContainer {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  background-color: #2D4555;
+  overflow: auto;
+}
+
+.aboutUs-left {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.aboutUs-right {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.aboutUslogo {
+  width: 100%;
+  height: 400px;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 42px;
+  text-align: center;
+  overflow: auto;
+}
+
+.aboutUslogo p {
+  padding: 10% 0;
+}
+
+.aboutUsContent {
+  margin: 25px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
