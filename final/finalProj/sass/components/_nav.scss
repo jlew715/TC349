@@ -1,0 +1,39 @@
+.nav{
+  margin:0;
+  width:50%;
+  float:left;
+}
+
+#activeNav{
+  background-color:#5A5A5A;
+  &:hover{
+    background-color:#C0C0C0;
+    transition: background-color 0.3s;
+  }
+}
+
+.nav li {
+  font-size:2em;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left:1%;
+  margin-right:1%;
+  margin-top:0.23em;
+  padding-left:1.5%;
+  padding-right:1.5%;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  &:hover{
+    background-color:#C0C0C0;
+    transition: background-color 0.3s;
+  }
+}
+
+.nav ul {
+  color: #FFFFFF;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  margin-left:2%;
+}

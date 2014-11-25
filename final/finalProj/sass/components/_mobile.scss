@@ -1,21 +1,41 @@
-@media (max-width: 1000px){
-  .topLine{
-    font-size:2em;
-    transition: font-size 0.3s;
+@media (max-width: 910px){
+  .nav li{
+    font-size:1.5em;
   }
-}
-@media (max-width: 800px){
+  .pageTitle p{
+    font-size:2em;
+  }
   .grid li{
     width:50%;
   }
-  .pageTitle{
+}
+
+@media (max-width: 700px){
+  .pageTitle {
     width:100%;
+  }
+  .pageTitle p {
+    text-align:center;
+    margin:0;
+  }
+  .nav{
+    width:100%;
+    text-align:center;
+  }
+  .nav li{
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
   }
 }
 
 @media (max-width: 400px){
   .grid li {
     width: 100%;
-    transition: width 0.3s;
+  }
+  #logo img {
+    height:256px;
+    width:179px;
   }
 }

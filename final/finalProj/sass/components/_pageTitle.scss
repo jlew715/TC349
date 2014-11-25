@@ -1,11 +1,14 @@
 .pageTitle {
+  margin:0;
   width:50%;
+  float:left;
 }
 
-
 .pageTitle p{
+  text-align:right;
+  font-size: 3em;
   color: #FFFFFF;
   padding: 0;
   margin:0;
-  margin-left:2%;
+  margin-right:2%;
 }
