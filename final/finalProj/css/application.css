@@ -640,6 +640,7 @@ html {
   padding-right: 1.5%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
+  border-radius: 3px;
 }
 /* line 27, ../sass/components/_nav.scss */
 .nav li:hover {
@@ -647,7 +648,7 @@ html {
   transition: background-color 0.3s;
 }
 
-/* line 33, ../sass/components/_nav.scss */
+/* line 34, ../sass/components/_nav.scss */
 .nav ul {
   color: #FFFFFF;
   list-style-type: none;
@@ -723,59 +724,44 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
 .hero {
   width: 100%;
   margin: 0;
-  background-color: #40637A;
-  overflow: auto;
+  padding: 0;
+  background-color: #FFFFFF;
+  overflow: hidden;
 }
 
-/* line 8, ../sass/components/_hero.scss */
-.heroContent {
-  width: 500px;
-  /*box for hero content*/
-  height: 400px;
-  padding-left: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #000000;
-  opacity: 0.45;
-  color: #FFFFFF;
+/* line 9, ../sass/components/_hero.scss */
+.hero p {
+  margin: 0 auto;
+  padding: 5%;
+  font-size: 1.2em;
+}
+
+/* line 15, ../sass/components/_hero.scss */
+.heroButton {
+  width: 20%;
+  font-size: 2em;
+  background-color: #2980b9;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/components/_heroLeft.scss */
+.heroLeft {
+  float: left;
+  width: 50%;
+  margin: 0;
+  background-color: #FFFFFF;
+  color: #000000;
   text-align: center;
 }
 
-/* line 19, ../sass/components/_hero.scss */
-.heroContent h1 {
+/* line 1, ../sass/components/_heroRight.scss */
+.heroRight {
+  float: left;
+  width: 50%;
   margin: 0;
-  font-size: 42px;
-  padding-top: 40px;
-}
-
-/* line 25, ../sass/components/_hero.scss */
-.heroContent ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 20px;
-  font-size: 28px;
-}
-
-/* line 33, ../sass/components/_hero.scss */
-.heroContent li {
-  padding: 5px;
-}
-
-/* line 37, ../sass/components/_hero.scss */
-.heroContent a:link {
-  color: #CCCCCC;
-}
-
-/* line 41, ../sass/components/_hero.scss */
-.heroContent a:visited {
-  color: #CCCCCC;
-}
-
-/* line 45, ../sass/components/_hero.scss */
-.heroContent a:hover {
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
 }
 
 /* line 1, ../sass/components/_aboutUs.scss */
@@ -841,7 +827,7 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
     width: 50%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 680px) {
   /* line 14, ../sass/components/_mobile.scss */
   .pageTitle {
     width: 100%;
@@ -866,14 +852,30 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
     padding: 0;
     text-align: center;
   }
+
+  /* line 31, ../sass/components/_mobile.scss */
+  #logo img {
+    height: 384px;
+    width: 268px;
+  }
+
+  /* line 35, ../sass/components/_mobile.scss */
+  .heroLeft {
+    width: 100%;
+  }
+
+  /* line 38, ../sass/components/_mobile.scss */
+  .heroRight {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
-  /* line 34, ../sass/components/_mobile.scss */
+  /* line 44, ../sass/components/_mobile.scss */
   .grid li {
     width: 100%;
   }
 
-  /* line 37, ../sass/components/_mobile.scss */
+  /* line 47, ../sass/components/_mobile.scss */
   #logo img {
     height: 256px;
     width: 179px;
