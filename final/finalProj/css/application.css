@@ -738,10 +738,20 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
 
 /* line 15, ../sass/components/_hero.scss */
 .heroButton {
-  width: 20%;
-  font-size: 2em;
+  width: 6em;
+  font-size: 3em;
+  color: #FFFFFF;
   background-color: #2980b9;
+  border-radius: 3px;
   margin: 0 auto;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+/* line 25, ../sass/components/_hero.scss */
+.heroButton:hover {
+  background-color: #5faee3;
+  transition: background-color 0.3s;
 }
 
 /* line 1, ../sass/components/_heroLeft.scss */
@@ -860,22 +870,27 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
   }
 
   /* line 35, ../sass/components/_mobile.scss */
+  .heroButton {
+    margin-bottom: 0.5em;
+  }
+
+  /* line 38, ../sass/components/_mobile.scss */
   .heroLeft {
     width: 100%;
   }
 
-  /* line 38, ../sass/components/_mobile.scss */
+  /* line 41, ../sass/components/_mobile.scss */
   .heroRight {
     width: 100%;
   }
 }
 @media (max-width: 400px) {
-  /* line 44, ../sass/components/_mobile.scss */
+  /* line 47, ../sass/components/_mobile.scss */
   .grid li {
     width: 100%;
   }
 
-  /* line 47, ../sass/components/_mobile.scss */
+  /* line 50, ../sass/components/_mobile.scss */
   #logo img {
     height: 256px;
     width: 179px;
