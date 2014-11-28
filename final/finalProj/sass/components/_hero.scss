@@ -1,27 +1,29 @@
 .hero {
+  background-color:#f6f6f6;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
   overflow: hidden;
 }
 
 .hero p {
   margin:0 auto;
-  padding: 5%;
-  font-size: 1.2em;
+  padding: 3%;
+  font-size: 1.5em;
 }
 
 .heroButton{
+  text-align:center;
   width:6em;
   font-size:3em;
   color:#FFFFFF;
   background-color:#2980b9;
-  border-radius:3px;
+  border-radius:5px;
   margin: 0 auto;
   padding-top:0.8em;
   padding-bottom:0.8em;
-  margin-bottom:2em;
+  margin-bottom:1em;
+  cursor: pointer;
   &:hover{
     background-color:#5faee3;
     transition: background-color 0.3s;

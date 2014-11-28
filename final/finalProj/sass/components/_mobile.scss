@@ -1,8 +1,14 @@
-@media (max-width: 910px){
+@media (max-width: 910px){ /*for plebians with a monitor for from the 1990s. Just kidding*/
   .nav li{
     font-size:1.5em;
   }
   .pageTitle p{
+    font-size:2em;
+  }
+  .hero p{
+    font-size:1em;
+  }
+  .heroButton{
     font-size:2em;
   }
   .grid li{
@@ -10,7 +16,7 @@
   }
 }
 
-@media (max-width: 680px){
+@media (max-width: 680px){ /*Large-size mobile layout (tablet, etc.)*/
   .pageTitle {
     width:100%;
   }
@@ -20,20 +26,30 @@
   }
   .nav{
     width:100%;
-    text-align:center;
+    padding:0;
+    margin:0;
+  }
+  .nav ul{
+    margin:0;
+    padding:0;
   }
   .nav li{
     width:100%;
     margin:0;
     padding:0;
     text-align:center;
+    border-radius:0px;
+    display:block;
   }
   #logo img {
     height:384px;
     width:268px;
   }
   .heroButton{
-      margin-bottom:0.5em;
+      margin-bottom:0;
+      border-radius:0;
+      font-size:2em;
+      width:100%;
   }
   .heroLeft{
     width:100%;
@@ -43,7 +59,7 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px){ /*Small-size mobile layout (phone, etc.)*/
   .grid li {
     width: 100%;
   }

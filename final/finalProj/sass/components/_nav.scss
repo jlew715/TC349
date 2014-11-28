@@ -1,10 +1,11 @@
 .nav{
   margin:0;
+  padding:0;
   width:50%;
   float:left;
 }
 
-#activeNav{
+.activeNav{
   background-color:#5A5A5A;
   &:hover{
     background-color:#C0C0C0;
@@ -27,8 +28,9 @@
   &:hover{
     background-color:#C0C0C0;
     transition: background-color 0.3s;
+    cursor: pointer;
   }
-  border-radius:3px;
+  border-radius:5px;
 }
 
 .nav ul {
