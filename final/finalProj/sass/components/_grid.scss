@@ -22,4 +22,11 @@
   width: 25%;
   margin: 0;
   padding: 0;
+  background-color:#000000;
+  opacity:0.5;
+  transition: opacity 0.5s;
+  &:hover{
+    opacity:1.0;
+    transition: opacity 0.5s;
+  }
 }
