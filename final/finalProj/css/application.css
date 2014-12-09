@@ -562,7 +562,7 @@ html {
 .header {
   width: 100%;
   margin: 0;
-  background-image: url("../img/camera.JPG");
+  background-image: url("../img/camera.jpg");
   background-position: center;
   overflow: auto;
 }
@@ -742,6 +742,13 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
 }
 
 /* line 15, ../sass/components/_hero.scss */
+.hero h1 {
+  padding-left: 3%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 21, ../sass/components/_hero.scss */
 .heroButton {
   text-align: center;
   width: 6em;
@@ -755,10 +762,16 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
   margin-bottom: 1em;
   cursor: pointer;
 }
-/* line 27, ../sass/components/_hero.scss */
+/* line 33, ../sass/components/_hero.scss */
 .heroButton:hover {
   background-color: #5faee3;
   transition: background-color 0.3s;
+}
+
+/* line 39, ../sass/components/_hero.scss */
+.bigButton {
+  width: 8em;
+  margin-top: 0.5em;
 }
 
 /* line 1, ../sass/components/_heroLeft.scss */
@@ -777,6 +790,26 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
   margin: 0;
   color: #000000;
   text-align: left;
+}
+
+/* line 1, ../sass/components/_contactButton.scss */
+.contactButton {
+  text-align: center;
+  width: 75%;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  background-color: #2980b9;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+/* line 13, ../sass/components/_contactButton.scss */
+.contactButton:hover {
+  background-color: #5faee3;
+  transition: background-color 0.3s;
 }
 
 /* line 1, ../sass/components/_footer.scss */
@@ -814,34 +847,39 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
   .grid li {
     width: 50%;
   }
+
+  /* line 17, ../sass/components/_mobile.scss */
+  .contactButton {
+    font-size: 1em;
+  }
 }
 @media (max-width: 680px) {
   /*Large-size mobile layout (tablet, etc.)*/
-  /* line 20, ../sass/components/_mobile.scss */
+  /* line 23, ../sass/components/_mobile.scss */
   .pageTitle {
     width: 100%;
   }
 
-  /* line 23, ../sass/components/_mobile.scss */
+  /* line 26, ../sass/components/_mobile.scss */
   .pageTitle p {
     text-align: center;
     margin: 0;
   }
 
-  /* line 27, ../sass/components/_mobile.scss */
+  /* line 30, ../sass/components/_mobile.scss */
   .nav {
     width: 100%;
     padding: 0;
     margin: 0;
   }
 
-  /* line 32, ../sass/components/_mobile.scss */
+  /* line 35, ../sass/components/_mobile.scss */
   .nav ul {
     margin: 0;
     padding: 0;
   }
 
-  /* line 36, ../sass/components/_mobile.scss */
+  /* line 39, ../sass/components/_mobile.scss */
   .nav li {
     width: 100%;
     margin: 0;
@@ -851,13 +889,13 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
     display: block;
   }
 
-  /* line 44, ../sass/components/_mobile.scss */
+  /* line 47, ../sass/components/_mobile.scss */
   #logo img {
-    height: 384px;
-    width: 268px;
+    height: 256px;
+    width: 179px;
   }
 
-  /* line 48, ../sass/components/_mobile.scss */
+  /* line 51, ../sass/components/_mobile.scss */
   .heroButton {
     margin-bottom: 0;
     border-radius: 0;
@@ -865,27 +903,30 @@ background-image: url('../img/gg2.png'); /*to change the image in the cell, just
     width: 100%;
   }
 
-  /* line 54, ../sass/components/_mobile.scss */
+  /* line 57, ../sass/components/_mobile.scss */
+  .contactButton {
+    margin-bottom: 0;
+    margin-top: 2px;
+    border-radius: 0;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  /* line 64, ../sass/components/_mobile.scss */
   .heroLeft {
     width: 100%;
   }
 
-  /* line 57, ../sass/components/_mobile.scss */
+  /* line 67, ../sass/components/_mobile.scss */
   .heroRight {
     width: 100%;
   }
 }
 @media (max-width: 400px) {
   /*Small-size mobile layout (phone, etc.)*/
-  /* line 63, ../sass/components/_mobile.scss */
+  /* line 73, ../sass/components/_mobile.scss */
   .grid li {
     width: 100%;
-  }
-
-  /* line 66, ../sass/components/_mobile.scss */
-  #logo img {
-    height: 256px;
-    width: 179px;
   }
 }
 /*thanks for playing*/

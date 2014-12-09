@@ -1,0 +1,17 @@
+.contactButton{
+  text-align:center;
+  width:75%;
+  font-size:1.5em;
+  color:#FFFFFF;
+  background-color:#2980b9;
+  border-radius:5px;
+  margin: 0 auto;
+  padding-top:0.2em;
+  padding-bottom:0.2em;
+  margin-bottom:1em;
+  cursor: pointer;
+  &:hover{
+    background-color:#5faee3;
+    transition: background-color 0.3s;
+  }
+}
