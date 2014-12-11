@@ -12,7 +12,7 @@ $(document).ready(function() {
     window.open("gallery.html",'_self');
   });
   $(".emailLink").click(function() {
-    window.open("mailto:lewisj38@gmail.com",'_self');
+    window.open("mailto:lewisj38@msu.edu",'_self');
   });
   $(".phoneLink").click(function() {
     window.open("tel:+17342768084",'_self');
